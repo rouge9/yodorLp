@@ -1,12 +1,15 @@
-import { useState } from "react";
-import { Button } from "./components/ui/button";
+import Filler from "./components/shared/Filler";
+import Hero from "./components/sections/Hero";
+import NavBar from "./components/shared/NavBar";
+import Explore from "./components/sections/Explore";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="flex w-full min-h-screen justify-center items-center">
-      <Button onClick={() => setCount(count + 1)}>Increment: {count}</Button>
+    <div className="">
+      <NavBar />
+      <Hero />
+      <Filler />
+      <Explore />
     </div>
   );
 }
