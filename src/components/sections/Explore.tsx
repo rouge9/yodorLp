@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 export default function Explore() {
   return (
-    <div className="flex flex-col p-8 pt-36 px-40 bg-zinc-800">
+    <div className="flex flex-col p-8  py-36 px-40 bg-zinc-800">
       <div className="flex flex-col">
         <p className="text-7xl font-bold text-amber-300">Get direct</p>
         <p className="text-7xl font-bold text-neutral-100">
