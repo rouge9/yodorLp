@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-neutral-100 p-8 py-28 px-28">
-      <div className="flex justify-between items-center">
+    <footer className="bg-neutral-100 p-8 lg:py-28 lg:px-28">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
         <div className="hidden md:flex flex-col">
           <img src="logo.svg" alt="logo" className="w-28 h-16" />
           <div className="flex gap-3 py-16">
@@ -16,7 +16,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center lg:space-x-20">
+        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center lg:space-x-20 gap-8 lg:gap-0">
           <div className="flex flex-col gap-3">
             <h3 className="text-lg 2xl:text-2xl font-bold text-zinc-800">
               About us
@@ -60,6 +60,20 @@ export default function Footer() {
               <li className="text-zinc-800 ">Site Maps</li>
               <li className="text-zinc-800 ">News</li>
             </ul>
+          </div>
+        </div>
+        <div className="flex flex-col lg:hidden pt-7 justify-center items-center">
+          <img src="logo.svg" alt="logo" className="w-28 h-16" />
+          <div className="flex gap-3 py-3">
+            <a href="#" className=" rounded-full">
+              <img src="facebook.svg" alt="facebook" className="w-8 h-8" />
+            </a>
+            <a href="#" className=" rounded-full">
+              <img src="twitter.svg" alt="X" className="w-8 h-8" />
+            </a>
+            <a href="#" className=" rounded-full">
+              <img src="instagram.svg" alt="insta" className="w-8 h-8" />
+            </a>
           </div>
         </div>
       </div>
