@@ -8,7 +8,7 @@ import Footer from "./components/shared/Footer";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <NavBar />
       <Hero />
       <Filler />
